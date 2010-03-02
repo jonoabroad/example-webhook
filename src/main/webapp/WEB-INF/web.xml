@@ -24,6 +24,10 @@
         <servlet-name>unique</servlet-name>
         <servlet-class>com.taykt.api.examples.webhook.SingleVotePerMobilePollServlet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>myId</servlet-name>
+        <servlet-class>com.taykt.api.examples.webhook.MyIdServlet</servlet-class>
+    </servlet>    
     <servlet-mapping>
         <servlet-name>date</servlet-name>
         <url-pattern>/date</url-pattern>
@@ -44,6 +48,10 @@
         <servlet-name>unique</servlet-name>
         <url-pattern>/unique</url-pattern>
     </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>myId</servlet-name>
+        <url-pattern>/myId</url-pattern>
+    </servlet-mapping> 
     <welcome-file-list>
         <welcome-file>/index.html</welcome-file>
     </welcome-file-list>
